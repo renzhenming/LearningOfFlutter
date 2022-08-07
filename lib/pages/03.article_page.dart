@@ -117,7 +117,7 @@ class ArticlePageState extends State<ArticlePage> {
       return Container(
         //MediaQuery.of(context).size.height: 全屏幕高度
         height: MediaQuery.of(context).size.height * 0.3,
-        color: Colors.red,
+        color: Colors.white,
         child: _bannerView(),
       );
     }
